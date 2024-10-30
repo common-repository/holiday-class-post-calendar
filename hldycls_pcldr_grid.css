@@ -1,0 +1,231 @@
+#wp-calendar,#wp-calendar-2{
+	font-size:0.75em;
+	color:#003333;
+	width:95%;
+	margin:0 auto;
+}
+
+#hclprevm{
+	text-align:left;
+	padding-top:3px;
+}
+
+#hclnextm{
+	text-align:right;
+	padding-top:3px;
+}
+
+#today{
+	color:#ffffff;
+	background-color:#C5D8F5;
+	border:solid 1px #0064FA;
+	border-radius:20%; 
+}
+
+.doyou{
+	color:#008b8b;
+}
+
+.nitiyou{
+	color:#ff1493;
+}
+
+.closewd{
+	/*color:orange;*/
+	background-color:#F9E2F9;
+	border-radius:50%;
+}
+
+.closedy{
+	/*color:purple;*/
+	background-color:#C4F5F9;
+	border-radius:50%;
+}
+
+.anniversary,.lanniversary{
+	color:#ffffff;
+	background-color:#D0CAF7;
+}
+
+.mlchildren{
+	display:none;
+	/*visibility:hidden;
+	opacity:0;*/
+}
+
+.arcyear > input{
+	display:none;
+}
+
+.arcyear:hover{
+	cursor:pointer;
+	color:#fe56aa;
+}
+
+#hclred{
+	color:red;
+}
+
+#hclblue{
+	color:blue;
+}
+
+input[id*="chlbis-"]:checked ~ .mlchildren{
+	display:block;
+}
+
+:is( #wp-calendar, #wp-calendar-2 ) * a{
+	border-bottom:dotted 1px red;
+}
+
+.cal-wd b{
+	display:inline-block;
+	padding:0 1px;
+}
+
+.cal-body div{
+	padding:0 1px;
+}
+
+.cal-body a{
+	color:#0000ff;
+}
+
+.cal-body a:hover{
+	color:#fff00f;
+}
+
+.cal-ym{
+	font-weight:bold;
+	text-align:left;
+	border-bottom:ridge 2px #778899;
+	padding-bottom:8px;
+	margin:0 0 8px 0;
+}
+
+.cal-prev{
+	text-align:left;
+	padding-top:3px;
+}
+
+.cal-next{
+	text-align:right;
+	padding-top:3px;
+}
+
+.cal-footer{
+	padding-bottom:10px;
+}
+
+#hclprevm{
+	text-align:left;
+	padding-top:3px;
+}
+
+#hclnextm{
+	text-align:right;
+	padding-top:3px;
+}
+
+#today{
+	color:#ffffff;
+	background-color:#C5D8F5;
+	border:solid 1px #0064FA;
+	border-radius:20%; 
+}
+
+.doyou{
+	color:#008b8b;
+}
+
+.nitiyou{
+	color:#ff1493;
+}
+
+.closewd{
+	/*color:orange;*/
+	background-color:#F9E2F9;
+	border-radius:50%;
+}
+
+.closedy{
+	/*color:purple;*/
+	background-color:#C4F5F9;
+	border-radius:50%;
+}
+
+.anniversary,.lanniversary{
+	color:#ffffff;
+	background-color:#D0CAF7;
+}
+
+.mlchildren{
+	display:none;
+}
+
+.arcyear > input{
+	display:none;
+}
+
+.arcyear:hover,.chlshwlbl:hover{
+	cursor:pointer;
+	color:#fe56aa;
+}
+
+input[id*="chlbis-"]:checked ~ .mlchildren{
+	display:block;
+}
+
+.mlchildren li{
+	font-size:1.1em;
+}
+
+.mlchildren li a:hover{
+	color:#fe56aa;
+}
+
+/*.daychildren{
+	display:block;
+	position:absolute;
+	width:150px;
+	top:15px;
+	right:-10px;
+	padding:2px;
+	text-align:left;
+	font-size:1.1em;
+	visibility:hidden;
+	opacity:0;
+	background-color:#ffffff;
+	border-radius:3px;
+	z-index:10;
+}
+
+.daychildren:before{
+	content:"";
+	display:block;
+	position:absolute;
+	top:-20px;
+	right:25px;
+	width:0px;
+	height:0px;
+	border-top: 10px solid transparent;
+	border-right: 0px solid;
+	border-bottom: 10px solid #ffffff;
+	border-left: 20px solid transparent;
+}
+
+[data-post]{
+	position:relative;
+}
+
+[data-post]:hover > .daychildren{
+	animation:openlink 0.4s;
+	animation-delay:0.5s;
+	animation-fill-mode:both;
+}
+
+@keyframes openlink{
+    from{ visibility:hidden; opacity: 0;}
+    5% { visibility:visible; opacity: 0; }
+    to{ visibility:visible;opacity:1;}
+}*/
